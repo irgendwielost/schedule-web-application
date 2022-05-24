@@ -1,0 +1,77 @@
+/* Day Container */
+
+#days-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.day-name-container {
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+.day-container {
+    padding: 1em;
+}
+
+
+/* Lesson Container */
+
+.lesson-container {
+    display: flex;
+    justify-content: center;
+    background-color: #ee790f;
+    color: white;
+    padding: 1em;
+    margin: 0.2em;
+    width: 8em;
+    border-radius: 0.4em;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.lesson-free {
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    padding: 1em;
+    margin: 0.2em;
+    width: 8em;
+    border-radius: 0.4em;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.subjectInformation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Input */
+
+#input-container {
+    background-color: #ee790f;
+}
+
+.input-hidden {
+    display: none;
+}
+
+.input-shown {
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+}
